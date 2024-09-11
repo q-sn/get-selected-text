@@ -1,6 +1,6 @@
 # @one-lang/get-selected-text
 
-Returns the text selected in any application.
+Get selected text from any application.
 
 The library is written in Rust using napi-rs.
 
