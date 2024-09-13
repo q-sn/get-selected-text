@@ -1,6 +1,22 @@
 {
   "name": "@one-lang/get-selected-text",
-  "version": "1.1.2",
+  "version": "1.1.3",
+  "description": "Get selected text from any application",
+  "author": "Nikolay Slivinskiy <q.s-n@yandex.ru>",
+  "homepage": "https://github.com/q-sn/get-selected-text#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/q-sn/get-selected-text.git"
+  },
+  "bugs": "https://github.com/q-sn/get-selected-text/issues",
+  "keywords": [
+    "selection",
+    "text",
+    "automation",
+    "desktop",
+    "native",
+    "rust"
+  ],
   "main": "index.js",
   "types": "index.d.ts",
   "napi": {
