@@ -60,11 +60,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@one-lang/get-selected-text-win32-x64-msvc@npm:^1.0.0":
+  version: 1.1.1
+  resolution: "@one-lang/get-selected-text-win32-x64-msvc@npm:1.1.1"
+  checksum: 10c0/5af8c6cf4a442fda4c29fa2558f621bffc1ebbc1285f8d26ed380549612228abeb6ee5943d27df08f7cc44c6db8c0ffc1dc26af4cf69f2a8546d8ad3e89e8ab9
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
 "@one-lang/get-selected-text@workspace:.":
   version: 0.0.0-use.local
   resolution: "@one-lang/get-selected-text@workspace:."
   dependencies:
     "@napi-rs/cli": "npm:^2.18.4"
+    "@one-lang/get-selected-text-win32-x64-msvc": "npm:^1.0.0"
     ava: "npm:^6.0.1"
   languageName: unknown
   linkType: soft
